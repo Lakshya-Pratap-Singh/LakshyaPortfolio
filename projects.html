@@ -279,13 +279,13 @@ footer p span{color:var(--accent)}
 
 <!-- ═══ PAGE HERO ═══ -->
 <div class="page-hero">
-  <div class="page-hero-badge"><span class="dot-live"></span> 7 Projects · 4 Featured · 3 Ongoing</div>
+  <div class="page-hero-badge"><span class="dot-live"></span> 7 Projects · 5 Featured · 2 Ongoing</div>
   <h1>All <em>Projects</em></h1>
-  <p>A complete showcase of my data science work — from production-grade ML pipelines and NLP tools to live BI dashboards. Plus three ongoing builds pushing new frontiers.</p>
+  <p>A complete showcase of my data science work — from production-grade ML pipelines and NLP tools to live BI dashboards. Plus two ongoing builds pushing new frontiers.</p>
   <div class="page-hero-stats">
     <div class="ph-stat"><span class="ph-stat-val">92%</span><span class="ph-stat-label">Best Accuracy</span></div>
-    <div class="ph-stat"><span class="ph-stat-val">4</span><span class="ph-stat-label">Featured</span></div>
-    <div class="ph-stat"><span class="ph-stat-val">3</span><span class="ph-stat-label">In Progress</span></div>
+    <div class="ph-stat"><span class="ph-stat-val">5</span><span class="ph-stat-label">Featured</span></div>
+    <div class="ph-stat"><span class="ph-stat-val">2</span><span class="ph-stat-label">In Progress</span></div>
     <div class="ph-stat"><span class="ph-stat-val">6+</span><span class="ph-stat-label">Tech Stacks</span></div>
   </div>
 </div>
@@ -304,39 +304,60 @@ footer p span{color:var(--accent)}
   </div>
 
   <div class="proj-grid" id="featuredGrid">
-
-    <!-- Customer Churn Prediction -->
-    <div class="proj-card-full pc-cyan reveal-anim" id="proj-churn" data-tags="ml">
+    <!-- Softoi Admin — Inventory &amp; POS Dashboard -->
+    <div class="proj-card-full pc-green reveal-anim" id="proj-softoiadmin" data-tags="web">
       <div class="proj-banner">
-        <div class="bn-panel">📉</div>
-        <div class="bn-panel">🔮</div>
-        <div class="bn-panel">📊</div>
+        <div class="bn-panel">🧾</div>
+        <div class="bn-panel">📦</div>
+        <div class="bn-panel">🛒</div>
       </div>
       <div class="proj-body">
         <div class="proj-top">
-          <span class="proj-title">Customer Churn Prediction</span>
-          <span class="proj-date">Mar 2026</span>
+          <span class="proj-title">Softoi Admin — Inventory &amp; POS Dashboard</span>
+          <span class="proj-date">Sep 2026</span>
         </div>
-        <p class="proj-stack">Python · Scikit-Learn · Random Forest · Power BI · Pandas</p>
-        <p class="proj-desc">End-to-end ML pipeline predicting customer churn using Logistic Regression & Random Forest. Full exploratory data analysis, preprocessing, and feature importance analysis backed by a Power BI dashboard for stakeholder-ready insights.</p>
+        <p class="proj-stack">Next.js · React · Prisma · PostgreSQL · NextAuth · Tailwind CSS</p>
+        <p class="proj-desc">Full-stack admin panel for a handcrafted-goods business. Manages products, artisans, stock, stalls and orders in one place, with a point-of-sale screen for offline stalls and a QR-based artisan feedback system.</p>
         <ul class="proj-bullets">
-          <li>Built & compared Logistic Regression vs Random Forest — achieved <strong>88% accuracy</strong> with Random Forest</li>
-          <li>Full EDA pipeline: missing value imputation, outlier detection, feature correlation heatmaps</li>
-          <li>Power BI dashboard with KPI cards, churn-by-segment visuals, and drill-through filters</li>
-          <li>Feature importance analysis identified top 5 churn drivers for business action</li>
+          <li>Role-based access (Admin, Inventory Manager, Staff, Stall Manager) with NextAuth authentication</li>
+          <li>Inventory suite: stock-in, stock-out, adjustments, low-stock alerts and a full stock-movement history</li>
+          <li>POS and order management across channels — website, stalls, malls, exhibitions, Instagram — with UPI, cash and card payments and printable QR receipts</li>
+          <li>Artisan management with QR-code feedback links, Cloudinary product-image uploads, Excel import/export and a product-performance report</li>
         </ul>
         <div class="proj-tags">
-          <span class="pt pt-cyan">Python</span><span class="pt pt-violet">Random Forest</span><span class="pt pt-cyan">Power BI</span><span class="pt pt-pink">EDA</span><span class="pt pt-violet">Scikit-Learn</span><span class="pt pt-gold">88% Accuracy</span>
+          <span class="pt pt-green">Next.js</span><span class="pt pt-cyan">React</span><span class="pt pt-violet">Prisma</span><span class="pt pt-cyan">PostgreSQL</span><span class="pt pt-pink">NextAuth</span><span class="pt pt-gold">Full-Stack</span>
         </div>
         <div class="proj-actions">
-          <a href="https://github.com/Lakshya-Pratap-Singh/CustomerChurn" target="_blank" class="proj-btn proj-btn-ghost">
-            <svg viewBox="0 0 24 24" fill="currentColor" width="13" height="13"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
-            GitHub
-          </a>
-          <a href="#" target="_blank" class="proj-btn proj-btn-main">
-            <svg viewBox="0 0 16 16" fill="currentColor" width="13" height="13"><path d="M8 0a8 8 0 100 16A8 8 0 008 0zM4.5 7.5a.5.5 0 000 1h5.793l-2.147 2.146a.5.5 0 00.708.708l3-3a.5.5 0 000-.708l-3-3a.5.5 0 10-.708.708L10.293 7.5H4.5z"/></svg>
-            Live Demo
-          </a>
+          <a href="https://github.com/Lakshya-Pratap-Singh/SoftoiAdmin" target="_blank" class="proj-btn proj-btn-ghost"><svg viewBox="0 0 24 24" fill="currentColor" width="13" height="13"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg> GitHub</a>
+          <a href="https://www.softoi.shop" target="_blank" class="proj-btn proj-btn-main"><svg viewBox="0 0 16 16" fill="currentColor" width="13" height="13"><path d="M8 0a8 8 0 100 16A8 8 0 008 0zM4.5 7.5a.5.5 0 000 1h5.793l-2.147 2.146a.5.5 0 00.708.708l3-3a.5.5 0 000-.708l-3-3a.5.5 0 10-.708.708L10.293 7.5H4.5z"/></svg> Live Demo</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Softtoi — Team Project -->
+    <div class="proj-card-full pc-amber reveal-anim" id="proj-softtoi" data-tags="web">
+      <div class="proj-banner">
+        <div class="bn-panel">🛍️</div>
+        <div class="bn-panel">🤝</div>
+        <div class="bn-panel">✨</div>
+      </div>
+      <div class="proj-body">
+        <div class="proj-top">
+          <span class="proj-title">Softtoi — Team Project</span>
+          <span class="proj-date">2026</span>
+        </div>
+        <p class="proj-stack">Collaborative build · Web</p>
+        <p class="proj-desc">Collaborative project built with a team, alongside the Softoi Admin dashboard. [DESCRIPTION TO BE UPDATED]</p>
+        <ul class="proj-bullets">
+          <li>Contributed as part of a team, working with shared repositories and pull requests</li>
+          <li>[ADD YOUR CONTRIBUTIONS HERE]</li>
+        </ul>
+        <div class="proj-tags">
+          <span class="pt pt-amber">Team Project</span><span class="pt pt-cyan">Web</span>
+        </div>
+        <div class="proj-actions">
+          <a href="#" target="_blank" class="proj-btn proj-btn-ghost"><svg viewBox="0 0 24 24" fill="currentColor" width="13" height="13"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg> GitHub</a>
+          <a href="#" target="_blank" class="proj-btn proj-btn-main"><svg viewBox="0 0 16 16" fill="currentColor" width="13" height="13"><path d="M8 0a8 8 0 100 16A8 8 0 008 0zM4.5 7.5a.5.5 0 000 1h5.793l-2.147 2.146a.5.5 0 00.708.708l3-3a.5.5 0 000-.708l-3-3a.5.5 0 10-.708.708L10.293 7.5H4.5z"/></svg> View Code</a>
         </div>
       </div>
     </div>
@@ -441,7 +462,7 @@ footer p span{color:var(--accent)}
             <svg viewBox="0 0 24 24" fill="currentColor" width="13" height="13"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
             View Resources
           </a>
-          <a href="https://app.powerbi.com/groups/me/reports/581f5882-a849-4b9b-903f-0800f3e804c7/5c6b48dbc8475473ca50?experience=power-bi" target="_blank" class="proj-btn proj-btn-main">
+          <a href="https://us-health-data-analysis-dashboard-u-two.vercel.app/" target="_blank" class="proj-btn proj-btn-main">
             <svg viewBox="0 0 16 16" fill="currentColor" width="13" height="13"><path d="M8 0a8 8 0 100 16A8 8 0 008 0zM4.5 7.5a.5.5 0 000 1h5.793l-2.147 2.146a.5.5 0 00.708.708l3-3a.5.5 0 000-.708l-3-3a.5.5 0 10-.708.708L10.293 7.5H4.5z"/></svg>
             Live Demo
           </a>
@@ -461,37 +482,33 @@ footer p span{color:var(--accent)}
 
   <div class="proj-grid">
 
-    <!-- Stock Price Predictor -->
-    <div class="proj-card-full pc-green reveal-anim" id="proj-stock">
+    <!-- Customer Churn Prediction -->
+    <div class="proj-card-full pc-cyan reveal-anim" id="proj-churn" data-tags="ml">
       <div class="proj-banner">
-        <div class="bn-panel">📈</div>
-        <div class="bn-panel">🧠</div>
-        <div class="bn-panel">💹</div>
+        <div class="bn-panel">📉</div>
+        <div class="bn-panel">🔮</div>
+        <div class="bn-panel">📊</div>
       </div>
       <div class="proj-body">
         <div class="proj-top">
-          <span class="proj-title">Stock Price Predictor — LSTM</span>
+          <span class="proj-title">Customer Churn Prediction</span>
           <div class="ongoing-badge"><span class="ongoing-dot"></span>In Progress</div>
         </div>
-        <p class="proj-stack">Python · TensorFlow / Keras · LSTM · yFinance · Matplotlib</p>
-        <p class="proj-desc">Deep learning model using stacked LSTM layers to predict next-day closing prices for NSE-listed stocks. Pulls live data via yFinance API, applies sliding window sequences, and visualises predictions vs actuals in real time.</p>
+        <p class="proj-stack">Python · Scikit-Learn · Random Forest · Power BI · Pandas</p>
+        <p class="proj-desc">End-to-end ML pipeline predicting customer churn using Logistic Regression & Random Forest. Full exploratory data analysis, preprocessing, and feature importance analysis backed by a Power BI dashboard for stakeholder-ready insights.</p>
         <ul class="proj-bullets">
-          <li>Stacked LSTM with dropout regularisation trained on 5 years of OHLCV data</li>
-          <li>Sliding window preprocessing: 60-day lookback sequences for temporal pattern capture</li>
-          <li>Live yFinance data feed — model re-trains on new weekly data automatically</li>
-          <li>Evaluation: RMSE, MAE, and directional accuracy metrics across 10 stocks</li>
+          <li>Built & compared Logistic Regression vs Random Forest — achieved <strong>88% accuracy</strong> with Random Forest</li>
+          <li>Full EDA pipeline: missing value imputation, outlier detection, feature correlation heatmaps</li>
+          <li>Power BI dashboard with KPI cards, churn-by-segment visuals, and drill-through filters</li>
+          <li>Feature importance analysis identified top 5 churn drivers for business action</li>
         </ul>
-        <div class="proj-progress">
-          <div class="prog-label"><span class="prog-name">Overall Progress</span><span class="prog-pct">65%</span></div>
-          <div class="prog-bar"><div class="prog-fill" style="--w:65%"></div></div>
-        </div>
         <div class="proj-tags">
-          <span class="pt pt-green">TensorFlow</span><span class="pt pt-cyan">LSTM</span><span class="pt pt-green">yFinance</span><span class="pt pt-violet">Python</span><span class="pt pt-cyan">Time Series</span>
+          <span class="pt pt-cyan">Python</span><span class="pt pt-violet">Random Forest</span><span class="pt pt-cyan">Power BI</span><span class="pt pt-pink">EDA</span><span class="pt pt-violet">Scikit-Learn</span><span class="pt pt-gold">88% Accuracy</span>
         </div>
         <div class="proj-actions">
-          <a href="#" target="_blank" class="proj-btn proj-btn-ghost">
+          <a href="https://github.com/Lakshya-Pratap-Singh/CustomerChurn" target="_blank" class="proj-btn proj-btn-ghost">
             <svg viewBox="0 0 24 24" fill="currentColor" width="13" height="13"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
-            GitHub (WIP)
+            GitHub
           </a>
           <a href="#" class="proj-btn proj-btn-main">
             <svg viewBox="0 0 16 16" fill="currentColor" width="13" height="13"><path d="M8 0a8 8 0 100 16A8 8 0 008 0zM4.5 7.5a.5.5 0 000 1h5.793l-2.147 2.146a.5.5 0 00.708.708l3-3a.5.5 0 000-.708l-3-3a.5.5 0 10-.708.708L10.293 7.5H4.5z"/></svg>
@@ -501,82 +518,32 @@ footer p span{color:var(--accent)}
       </div>
     </div>
 
-    <!-- IPL Analytics Dashboard -->
-    <div class="proj-card-full pc-amber reveal-anim" id="proj-ipl">
+    <!-- AuraFarm -->
+    <div class="proj-card-full pc-violet reveal-anim" id="proj-aurafarm">
       <div class="proj-banner">
-        <div class="bn-panel">🏏</div>
-        <div class="bn-panel">📊</div>
+        <div class="bn-panel">🌱</div>
+        <div class="bn-panel">⚔️</div>
         <div class="bn-panel">🏆</div>
       </div>
       <div class="proj-body">
         <div class="proj-top">
-          <span class="proj-title">IPL Analytics Dashboard</span>
+          <span class="proj-title">AuraFarm — Gamified Growth Platform</span>
           <div class="ongoing-badge"><span class="ongoing-dot"></span>In Progress</div>
         </div>
-        <p class="proj-stack">Python · Pandas · Tableau · MySQL · EDA</p>
-        <p class="proj-desc">Comprehensive IPL cricket analytics platform covering all seasons from 2008 to 2024. Deep player and team performance analysis with Tableau dashboards featuring win probability trends, batting consistency scores, and venue breakdowns.</p>
+        <p class="proj-stack">React · Vite · Node.js · Express · Prisma · PostgreSQL · Firebase</p>
+        <p class="proj-desc">Full-stack self-growth platform where users set objectives, break them into missions and earn XP. Goals are organised into "Forges" spanning physical, mental, career, financial, creative, social and lifestyle growth.</p>
         <ul class="proj-bullets">
-          <li>MySQL database storing 200K+ ball-by-ball records across 17 IPL seasons</li>
-          <li>Python EDA pipeline computing 40+ custom stats: strike rate under pressure, death-over economy</li>
-          <li>Tableau dashboards with interactive filters by season, team, player, and venue</li>
-          <li>Win probability model trained on first-innings scoring patterns — 79% directional accuracy</li>
+          <li>Config-driven Forge system (Exercise, Reading, Coding, Placement and more) — new modules are added through configuration, not code changes</li>
+          <li>Objective, mission and XP tracking with activity events and an analytics dashboard</li>
+          <li>Notification engine with push, email and in-app channels, scheduled via node-cron with per-user preferences</li>
+          <li>Resource library with user submissions and admin moderation, secured with JWT / Firebase auth, role checks and Helmet</li>
         </ul>
-        <div class="proj-progress">
-          <div class="prog-label"><span class="prog-name">Overall Progress</span><span class="prog-pct">45%</span></div>
-          <div class="prog-bar"><div class="prog-fill" style="--w:45%"></div></div>
-        </div>
         <div class="proj-tags">
-          <span class="pt pt-amber">Tableau</span><span class="pt pt-cyan">MySQL</span><span class="pt pt-violet">Pandas</span><span class="pt pt-amber">Python</span><span class="pt pt-pink">Sports Analytics</span>
+          <span class="pt pt-violet">React</span><span class="pt pt-green">Node.js</span><span class="pt pt-cyan">Express</span><span class="pt pt-pink">Prisma</span><span class="pt pt-cyan">PostgreSQL</span><span class="pt pt-gold">Firebase</span>
         </div>
         <div class="proj-actions">
-          <a href="#" target="_blank" class="proj-btn proj-btn-ghost">
-            <svg viewBox="0 0 24 24" fill="currentColor" width="13" height="13"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
-            GitHub (WIP)
-          </a>
-          <a href="#" class="proj-btn proj-btn-main">
-            <svg viewBox="0 0 16 16" fill="currentColor" width="13" height="13"><path d="M8 0a8 8 0 100 16A8 8 0 008 0zM4.5 7.5a.5.5 0 000 1h5.793l-2.147 2.146a.5.5 0 00.708.708l3-3a.5.5 0 000-.708l-3-3a.5.5 0 10-.708.708L10.293 7.5H4.5z"/></svg>
-            Preview Soon
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <!-- Fake News Detector -->
-    <div class="proj-card-full pc-red reveal-anim" id="proj-fakenews">
-      <div class="proj-banner">
-        <div class="bn-panel">📰</div>
-        <div class="bn-panel">🔍</div>
-        <div class="bn-panel">⚡</div>
-      </div>
-      <div class="proj-body">
-        <div class="proj-top">
-          <span class="proj-title">Fake News Detector — NLP + BERT</span>
-          <div class="ongoing-badge"><span class="ongoing-dot"></span>In Progress</div>
-        </div>
-        <p class="proj-stack">Python · HuggingFace Transformers · BERT · Flask · Pandas</p>
-        <p class="proj-desc">Fine-tuned BERT model for binary fake/real news classification using the LIAR and FakeNewsNet datasets. Flask API wraps the model for real-time inference, with a clean frontend for paste-and-predict functionality.</p>
-        <ul class="proj-bullets">
-          <li>Fine-tuning BERT-base-uncased on 12K labelled news articles across 6 credibility classes</li>
-          <li>Data augmentation via back-translation to combat class imbalance in training set</li>
-          <li>Flask REST API with rate limiting — returns label, confidence score, and flagged sentences</li>
-          <li>Target: surpass baseline passive-aggressive classifier (91%) with BERT fine-tune</li>
-        </ul>
-        <div class="proj-progress">
-          <div class="prog-label"><span class="prog-name">Overall Progress</span><span class="prog-pct">30%</span></div>
-          <div class="prog-bar"><div class="prog-fill" style="--w:30%"></div></div>
-        </div>
-        <div class="proj-tags">
-          <span class="pt pt-red">BERT</span><span class="pt pt-pink">NLP</span><span class="pt pt-red">HuggingFace</span><span class="pt pt-cyan">Flask</span><span class="pt pt-violet">Python</span>
-        </div>
-        <div class="proj-actions">
-          <a href="#" target="_blank" class="proj-btn proj-btn-ghost">
-            <svg viewBox="0 0 24 24" fill="currentColor" width="13" height="13"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
-            GitHub (WIP)
-          </a>
-          <a href="#" class="proj-btn proj-btn-main">
-            <svg viewBox="0 0 16 16" fill="currentColor" width="13" height="13"><path d="M8 0a8 8 0 100 16A8 8 0 008 0zM4.5 7.5a.5.5 0 000 1h5.793l-2.147 2.146a.5.5 0 00.708.708l3-3a.5.5 0 000-.708l-3-3a.5.5 0 10-.708.708L10.293 7.5H4.5z"/></svg>
-            Preview Soon
-          </a>
+          <a href="https://github.com/Lakshya-Pratap-Singh/AuraFarm" target="_blank" class="proj-btn proj-btn-ghost"><svg viewBox="0 0 24 24" fill="currentColor" width="13" height="13"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg> GitHub</a>
+          <a href="#" class="proj-btn proj-btn-main"><svg viewBox="0 0 16 16" fill="currentColor" width="13" height="13"><path d="M8 0a8 8 0 100 16A8 8 0 008 0zM4.5 7.5a.5.5 0 000 1h5.793l-2.147 2.146a.5.5 0 00.708.708l3-3a.5.5 0 000-.708l-3-3a.5.5 0 10-.708.708L10.293 7.5H4.5z"/></svg> Preview Soon</a>
         </div>
       </div>
     </div>
